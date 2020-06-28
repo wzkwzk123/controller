@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Controller" targetName="Controller" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7bdec978-ee81-4192-952f-bcd202bbb73d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1beX6yHyH0Y66SUDCU3Raldis02" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../safe_stop_planner/src/CMakeLists.txt" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/qp_solver" />
+      <recent name="$PROJECT_DIR$/include/Controller/qp_solver" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Controller" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Controller" TARGET_NAME="Controller" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Controller" RUN_TARGET_NAME="Controller">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7bdec978-ee81-4192-952f-bcd202bbb73d" name="Default Changelist" comment="" />
+      <created>1588993361858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588993361858</updated>
+      <workItem from="1588993363697" duration="24177000" />
+      <workItem from="1589250694800" duration="26306000" />
+      <workItem from="1589763017056" duration="1295000" />
+      <workItem from="1590021478268" duration="1146000" />
+      <workItem from="1590291105023" duration="64000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="503" y="141" key="FileChooserDialogImpl" timestamp="1590291165570">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="503" y="141" key="FileChooserDialogImpl/65.24.1301.744@65.24.1301.744" timestamp="1590291165570" />
+    <state x="375" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1590291106080">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="375" y="211" key="com.intellij.ide.util.TipDialog/65.24.1301.744@65.24.1301.744" timestamp="1590291106080" />
+  </component>
+</project>
