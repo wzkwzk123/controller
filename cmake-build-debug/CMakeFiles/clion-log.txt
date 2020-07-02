@@ -1,4 +1,4 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/cc -DCMAKE_CXX_COMPILER=/usr/bin/c++ -G "CodeBlocks - Unix Makefiles" /home/cjh/wzk/masterThesis/Controller
+/home/zwu/software/CLion-2019.3.2/clion-2019.3.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/zwu/zwu/profession/control/controller/controllerCplus/controller
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/cjh/wzk/masterThesis/Controller/cmake-build-debug
+-- Build files have been written to: /home/zwu/zwu/profession/control/controller/controllerCplus/controller/cmake-build-debug

@@ -6,6 +6,9 @@
 #define CONTROLLER_CONTROLLER_H
 
 #include "eigen3/Eigen/Core"
+#include "status.h"
+#include "parameters.h"
+#include "log.h"
 
 namespace control{
 
@@ -15,9 +18,15 @@ namespace control{
         Controller() = default;
         virtual ~Controller() = default;
 
-        virtual bool Init();
+        virtual Status Init(const ControllerParam& control_conf) = 0;
 
-        virtual bool computeControlCommand();
+        virtual Status computeControlCommand(
+                const Localization& localization,
+                const Chassis& chassis,
+                const Trajectory& trajectory,
+                ControlCommand& controlCommand) = 0;
+
+        virtual std::string Name() const = 0;
 
         // reset controller
         virtual bool reset();

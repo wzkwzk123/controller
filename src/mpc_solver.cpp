@@ -33,11 +33,25 @@ namespace control{
         }
 
         std::vector<Matrix> matrix_a_power(horizon);
+        /*
+         *   【A
+         *     A*A
+         *     ***
+         *     A^horizon-1
+         *   】
+         */
         matrix_a_power[0] = matrix_a;
         for(size_t i=0; i<matrix_a_power.size(); ++i){
             matrix_a_power[i] = matrix_a * matrix_a_power[i-1];
         }
 
+        /*
+         * [B   0 ...    0
+         *  AB  B ...    0
+         *  AAB AB B ... 0
+         *  AAAB ...     B
+         * ]
+         */
         Matrix matrix_k = Matrix::Zero(matrix_b.rows() * horizon, matrix_b.cols() * horizon);
         // Matrix matrix_k = Matrix::Zero(matrix_b.row() * horizon, matrix_b.cols() * horizon);
         matrix_k.block(0, 0, matrix_b.rows(), matrix_b.cols()) = matrix_b;
@@ -58,7 +72,7 @@ namespace control{
 
         // TODO find the function of the matrix_cc
         Matrix matrix_cc = Matrix::Zero(horizon * matrix_c.rows(), 1);
-        Matrix matrix_aa = Matrix::Zero(horizon*matrix_a.rows(), matrix_a.cols());
+        Matrix matrix_aa = Matrix::Zero(horizon * matrix_a.rows(), matrix_a.cols());
         matrix_aa.block(0, 0, matrix_a.rows(), matrix_a.cols()) = matrix_a;
 
         for(size_t i=1; i<horizon; i++){
@@ -117,10 +131,10 @@ namespace control{
         Matrix matrix_equality_constrain = Matrix::Zero(matrix_ll.rows() + matrix_uu.rows(), matrix_ll.rows());
         Matrix matrix_equality_boundary = Matrix::Zero(matrix_ll.rows() + matrix_uu.rows(), matrix_ll.cols());
 
-        // std::unique_ptr<QpSolver> qp_solver(new ActiveSetQpSolver(matrix_m1, matrix_m2, matrix_inquality_constraint, matrix_inequality_boundary,matrix_equality_constrain, matrix_equality_boundary));
+        std::unique_ptr<QpSolver> qp_solver(new ActiveSetQpSolver(matrix_m1, matrix_m2, matrix_inquality_constraint, matrix_inequality_boundary,matrix_equality_constrain, matrix_equality_boundary));
 
         // TODO no match function
-         std::unique_ptr<ActiveSetQpSolver> qp_solver;
+        // std::unique_ptr<ActiveSetQpSolver> qp_solver;
         bool result = qp_solver->Solve();
         if(!result){
             std::cout << "Linear MPC solver failed when solve the qp problem";

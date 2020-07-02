@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/cjh/wzk/masterThesis/Controller/include/Controller -I/home/cjh/wzk/masterThesis/Controller/include/Controller/math -I/home/cjh/wzk/masterThesis/Controller/include/Controller/qp_solver -I/home/cjh/software/eigen-3.3.7/home/cjh/software/eigen-3.3.7 
+CXX_INCLUDES = -I/home/zwu/zwu/profession/control/controller/controllerCplus/controller/include -I/home/zwu/zwu/profession/control/controller/controllerCplus/controller/include/Controller -I/home/zwu/zwu/profession/control/controller/controllerCplus/controller/include/Controller/math -I/home/zwu/zwu/profession/control/controller/controllerCplus/controller/include/Controller/qp_solver -I/home/zwu/software -I/home/zwu/software/qpOASES-3.2.1/include 
 

@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /home/zwu/software/CLion-2019.3.2/clion-2019.3.2/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E remove -f
+RM = /home/zwu/software/CLion-2019.3.2/clion-2019.3.2/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cjh/wzk/masterThesis/Controller
+CMAKE_SOURCE_DIR = /home/zwu/zwu/profession/control/controller/controllerCplus/controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cjh/wzk/masterThesis/Controller/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zwu/zwu/profession/control/controller/controllerCplus/controller/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Controller.dir/depend.make
@@ -59,107 +59,107 @@ include CMakeFiles/Controller.dir/flags.make
 
 CMakeFiles/Controller.dir/main.cpp.o: CMakeFiles/Controller.dir/flags.make
 CMakeFiles/Controller.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cjh/wzk/masterThesis/Controller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Controller.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/main.cpp.o -c /home/cjh/wzk/masterThesis/Controller/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zwu/zwu/profession/control/controller/controllerCplus/controller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Controller.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/main.cpp.o -c /home/zwu/zwu/profession/control/controller/controllerCplus/controller/main.cpp
 
 CMakeFiles/Controller.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controller.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cjh/wzk/masterThesis/Controller/main.cpp > CMakeFiles/Controller.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zwu/zwu/profession/control/controller/controllerCplus/controller/main.cpp > CMakeFiles/Controller.dir/main.cpp.i
 
 CMakeFiles/Controller.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controller.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cjh/wzk/masterThesis/Controller/main.cpp -o CMakeFiles/Controller.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zwu/zwu/profession/control/controller/controllerCplus/controller/main.cpp -o CMakeFiles/Controller.dir/main.cpp.s
 
 CMakeFiles/Controller.dir/src/mpc_controller.cpp.o: CMakeFiles/Controller.dir/flags.make
 CMakeFiles/Controller.dir/src/mpc_controller.cpp.o: ../src/mpc_controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cjh/wzk/masterThesis/Controller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Controller.dir/src/mpc_controller.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/src/mpc_controller.cpp.o -c /home/cjh/wzk/masterThesis/Controller/src/mpc_controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zwu/zwu/profession/control/controller/controllerCplus/controller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Controller.dir/src/mpc_controller.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/src/mpc_controller.cpp.o -c /home/zwu/zwu/profession/control/controller/controllerCplus/controller/src/mpc_controller.cpp
 
 CMakeFiles/Controller.dir/src/mpc_controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controller.dir/src/mpc_controller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cjh/wzk/masterThesis/Controller/src/mpc_controller.cpp > CMakeFiles/Controller.dir/src/mpc_controller.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zwu/zwu/profession/control/controller/controllerCplus/controller/src/mpc_controller.cpp > CMakeFiles/Controller.dir/src/mpc_controller.cpp.i
 
 CMakeFiles/Controller.dir/src/mpc_controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controller.dir/src/mpc_controller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cjh/wzk/masterThesis/Controller/src/mpc_controller.cpp -o CMakeFiles/Controller.dir/src/mpc_controller.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zwu/zwu/profession/control/controller/controllerCplus/controller/src/mpc_controller.cpp -o CMakeFiles/Controller.dir/src/mpc_controller.cpp.s
 
 CMakeFiles/Controller.dir/src/controller.cpp.o: CMakeFiles/Controller.dir/flags.make
 CMakeFiles/Controller.dir/src/controller.cpp.o: ../src/controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cjh/wzk/masterThesis/Controller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Controller.dir/src/controller.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/src/controller.cpp.o -c /home/cjh/wzk/masterThesis/Controller/src/controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zwu/zwu/profession/control/controller/controllerCplus/controller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Controller.dir/src/controller.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/src/controller.cpp.o -c /home/zwu/zwu/profession/control/controller/controllerCplus/controller/src/controller.cpp
 
 CMakeFiles/Controller.dir/src/controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controller.dir/src/controller.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cjh/wzk/masterThesis/Controller/src/controller.cpp > CMakeFiles/Controller.dir/src/controller.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zwu/zwu/profession/control/controller/controllerCplus/controller/src/controller.cpp > CMakeFiles/Controller.dir/src/controller.cpp.i
 
 CMakeFiles/Controller.dir/src/controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controller.dir/src/controller.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cjh/wzk/masterThesis/Controller/src/controller.cpp -o CMakeFiles/Controller.dir/src/controller.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zwu/zwu/profession/control/controller/controllerCplus/controller/src/controller.cpp -o CMakeFiles/Controller.dir/src/controller.cpp.s
 
 CMakeFiles/Controller.dir/test/test1.cpp.o: CMakeFiles/Controller.dir/flags.make
 CMakeFiles/Controller.dir/test/test1.cpp.o: ../test/test1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cjh/wzk/masterThesis/Controller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Controller.dir/test/test1.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/test/test1.cpp.o -c /home/cjh/wzk/masterThesis/Controller/test/test1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zwu/zwu/profession/control/controller/controllerCplus/controller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Controller.dir/test/test1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/test/test1.cpp.o -c /home/zwu/zwu/profession/control/controller/controllerCplus/controller/test/test1.cpp
 
 CMakeFiles/Controller.dir/test/test1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controller.dir/test/test1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cjh/wzk/masterThesis/Controller/test/test1.cpp > CMakeFiles/Controller.dir/test/test1.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zwu/zwu/profession/control/controller/controllerCplus/controller/test/test1.cpp > CMakeFiles/Controller.dir/test/test1.cpp.i
 
 CMakeFiles/Controller.dir/test/test1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controller.dir/test/test1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cjh/wzk/masterThesis/Controller/test/test1.cpp -o CMakeFiles/Controller.dir/test/test1.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zwu/zwu/profession/control/controller/controllerCplus/controller/test/test1.cpp -o CMakeFiles/Controller.dir/test/test1.cpp.s
 
 CMakeFiles/Controller.dir/src/mpc_solver.cpp.o: CMakeFiles/Controller.dir/flags.make
 CMakeFiles/Controller.dir/src/mpc_solver.cpp.o: ../src/mpc_solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cjh/wzk/masterThesis/Controller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Controller.dir/src/mpc_solver.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/src/mpc_solver.cpp.o -c /home/cjh/wzk/masterThesis/Controller/src/mpc_solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zwu/zwu/profession/control/controller/controllerCplus/controller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Controller.dir/src/mpc_solver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/src/mpc_solver.cpp.o -c /home/zwu/zwu/profession/control/controller/controllerCplus/controller/src/mpc_solver.cpp
 
 CMakeFiles/Controller.dir/src/mpc_solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controller.dir/src/mpc_solver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cjh/wzk/masterThesis/Controller/src/mpc_solver.cpp > CMakeFiles/Controller.dir/src/mpc_solver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zwu/zwu/profession/control/controller/controllerCplus/controller/src/mpc_solver.cpp > CMakeFiles/Controller.dir/src/mpc_solver.cpp.i
 
 CMakeFiles/Controller.dir/src/mpc_solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controller.dir/src/mpc_solver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cjh/wzk/masterThesis/Controller/src/mpc_solver.cpp -o CMakeFiles/Controller.dir/src/mpc_solver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zwu/zwu/profession/control/controller/controllerCplus/controller/src/mpc_solver.cpp -o CMakeFiles/Controller.dir/src/mpc_solver.cpp.s
 
 CMakeFiles/Controller.dir/src/qp_solver/qp_solver.cpp.o: CMakeFiles/Controller.dir/flags.make
 CMakeFiles/Controller.dir/src/qp_solver/qp_solver.cpp.o: ../src/qp_solver/qp_solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cjh/wzk/masterThesis/Controller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Controller.dir/src/qp_solver/qp_solver.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/src/qp_solver/qp_solver.cpp.o -c /home/cjh/wzk/masterThesis/Controller/src/qp_solver/qp_solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zwu/zwu/profession/control/controller/controllerCplus/controller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Controller.dir/src/qp_solver/qp_solver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/src/qp_solver/qp_solver.cpp.o -c /home/zwu/zwu/profession/control/controller/controllerCplus/controller/src/qp_solver/qp_solver.cpp
 
 CMakeFiles/Controller.dir/src/qp_solver/qp_solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controller.dir/src/qp_solver/qp_solver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cjh/wzk/masterThesis/Controller/src/qp_solver/qp_solver.cpp > CMakeFiles/Controller.dir/src/qp_solver/qp_solver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zwu/zwu/profession/control/controller/controllerCplus/controller/src/qp_solver/qp_solver.cpp > CMakeFiles/Controller.dir/src/qp_solver/qp_solver.cpp.i
 
 CMakeFiles/Controller.dir/src/qp_solver/qp_solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controller.dir/src/qp_solver/qp_solver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cjh/wzk/masterThesis/Controller/src/qp_solver/qp_solver.cpp -o CMakeFiles/Controller.dir/src/qp_solver/qp_solver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zwu/zwu/profession/control/controller/controllerCplus/controller/src/qp_solver/qp_solver.cpp -o CMakeFiles/Controller.dir/src/qp_solver/qp_solver.cpp.s
 
 CMakeFiles/Controller.dir/src/qp_solver/active_set_qp_solver.cpp.o: CMakeFiles/Controller.dir/flags.make
 CMakeFiles/Controller.dir/src/qp_solver/active_set_qp_solver.cpp.o: ../src/qp_solver/active_set_qp_solver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cjh/wzk/masterThesis/Controller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Controller.dir/src/qp_solver/active_set_qp_solver.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/src/qp_solver/active_set_qp_solver.cpp.o -c /home/cjh/wzk/masterThesis/Controller/src/qp_solver/active_set_qp_solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zwu/zwu/profession/control/controller/controllerCplus/controller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Controller.dir/src/qp_solver/active_set_qp_solver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/src/qp_solver/active_set_qp_solver.cpp.o -c /home/zwu/zwu/profession/control/controller/controllerCplus/controller/src/qp_solver/active_set_qp_solver.cpp
 
 CMakeFiles/Controller.dir/src/qp_solver/active_set_qp_solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controller.dir/src/qp_solver/active_set_qp_solver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cjh/wzk/masterThesis/Controller/src/qp_solver/active_set_qp_solver.cpp > CMakeFiles/Controller.dir/src/qp_solver/active_set_qp_solver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zwu/zwu/profession/control/controller/controllerCplus/controller/src/qp_solver/active_set_qp_solver.cpp > CMakeFiles/Controller.dir/src/qp_solver/active_set_qp_solver.cpp.i
 
 CMakeFiles/Controller.dir/src/qp_solver/active_set_qp_solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controller.dir/src/qp_solver/active_set_qp_solver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cjh/wzk/masterThesis/Controller/src/qp_solver/active_set_qp_solver.cpp -o CMakeFiles/Controller.dir/src/qp_solver/active_set_qp_solver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zwu/zwu/profession/control/controller/controllerCplus/controller/src/qp_solver/active_set_qp_solver.cpp -o CMakeFiles/Controller.dir/src/qp_solver/active_set_qp_solver.cpp.s
 
 CMakeFiles/Controller.dir/src/qp_solver/qp_solver_gflags.cpp.o: CMakeFiles/Controller.dir/flags.make
 CMakeFiles/Controller.dir/src/qp_solver/qp_solver_gflags.cpp.o: ../src/qp_solver/qp_solver_gflags.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cjh/wzk/masterThesis/Controller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Controller.dir/src/qp_solver/qp_solver_gflags.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/src/qp_solver/qp_solver_gflags.cpp.o -c /home/cjh/wzk/masterThesis/Controller/src/qp_solver/qp_solver_gflags.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zwu/zwu/profession/control/controller/controllerCplus/controller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Controller.dir/src/qp_solver/qp_solver_gflags.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Controller.dir/src/qp_solver/qp_solver_gflags.cpp.o -c /home/zwu/zwu/profession/control/controller/controllerCplus/controller/src/qp_solver/qp_solver_gflags.cpp
 
 CMakeFiles/Controller.dir/src/qp_solver/qp_solver_gflags.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Controller.dir/src/qp_solver/qp_solver_gflags.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cjh/wzk/masterThesis/Controller/src/qp_solver/qp_solver_gflags.cpp > CMakeFiles/Controller.dir/src/qp_solver/qp_solver_gflags.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zwu/zwu/profession/control/controller/controllerCplus/controller/src/qp_solver/qp_solver_gflags.cpp > CMakeFiles/Controller.dir/src/qp_solver/qp_solver_gflags.cpp.i
 
 CMakeFiles/Controller.dir/src/qp_solver/qp_solver_gflags.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Controller.dir/src/qp_solver/qp_solver_gflags.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cjh/wzk/masterThesis/Controller/src/qp_solver/qp_solver_gflags.cpp -o CMakeFiles/Controller.dir/src/qp_solver/qp_solver_gflags.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zwu/zwu/profession/control/controller/controllerCplus/controller/src/qp_solver/qp_solver_gflags.cpp -o CMakeFiles/Controller.dir/src/qp_solver/qp_solver_gflags.cpp.s
 
 # Object files for target Controller
 Controller_OBJECTS = \
@@ -185,7 +185,7 @@ Controller: CMakeFiles/Controller.dir/src/qp_solver/active_set_qp_solver.cpp.o
 Controller: CMakeFiles/Controller.dir/src/qp_solver/qp_solver_gflags.cpp.o
 Controller: CMakeFiles/Controller.dir/build.make
 Controller: CMakeFiles/Controller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cjh/wzk/masterThesis/Controller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Controller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zwu/zwu/profession/control/controller/controllerCplus/controller/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Controller"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Controller.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -198,6 +198,6 @@ CMakeFiles/Controller.dir/clean:
 .PHONY : CMakeFiles/Controller.dir/clean
 
 CMakeFiles/Controller.dir/depend:
-	cd /home/cjh/wzk/masterThesis/Controller/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cjh/wzk/masterThesis/Controller /home/cjh/wzk/masterThesis/Controller /home/cjh/wzk/masterThesis/Controller/cmake-build-debug /home/cjh/wzk/masterThesis/Controller/cmake-build-debug /home/cjh/wzk/masterThesis/Controller/cmake-build-debug/CMakeFiles/Controller.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zwu/zwu/profession/control/controller/controllerCplus/controller/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zwu/zwu/profession/control/controller/controllerCplus/controller /home/zwu/zwu/profession/control/controller/controllerCplus/controller /home/zwu/zwu/profession/control/controller/controllerCplus/controller/cmake-build-debug /home/zwu/zwu/profession/control/controller/controllerCplus/controller/cmake-build-debug /home/zwu/zwu/profession/control/controller/controllerCplus/controller/cmake-build-debug/CMakeFiles/Controller.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Controller.dir/depend
 

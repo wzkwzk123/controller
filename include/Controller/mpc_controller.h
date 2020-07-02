@@ -6,8 +6,7 @@
 #define CONTROLLER_MPC_CONTROLLER_H
 
 #include "controller.h"
-#include "parameters.h"
-#include <glog/logging.h>
+
 #include <string.h>
 #include <iostream>
 #include "mpc_solver.h"
@@ -15,23 +14,49 @@
 #include "math_utils.h"
 
 namespace control{
+
     // Input --
     // Output -- Acceleration, steer angle.
     class MPCController : public Controller{
     public:
-        MPCController(const VehicleParam& vehParam, const MPCControllerParam& mpcParam){
+        /**
+         * @brief constuctor
+         * @param vehParam veh configuration
+         * @param mpcParam controller configuration
+         */
+        MPCController(const VehicleParam& vehParam, const ControllerParam& mpcParam){
             vehParam_ = vehParam;
-            mpcParam_ = mpcParam;
+            mpcParam_ = mpcParam.mpcParm;
         };
+
+        /**
+         * deconstructor
+         */
         virtual ~MPCController();
 
         bool LoadControlConf();
-        bool Init() override ;
-        void UpdateState();
-        void UpdateMatrix();
-        bool ComputeControlCommand();
+
+        /**
+         * @brief initialize MPC controller
+         * @param control_conf configurations
+         * @return Status
+         */
+        Status Init(const ControllerParam& control_conf) override ;
+
+        Status computeControlCommand(
+                const Localization& localization,
+                const Chassis& chassis,
+                const Trajectory& trajectory,
+                ControlCommand& controlCommand
+                ) override ;
+
+        std::string Name() const override ;
 
     protected:
+        void UpdateState();
+
+        void UpdateMatrix();
+
         VehicleParam vehParam_;
         MPCControllerParam mpcParam_;
 
@@ -59,6 +84,9 @@ namespace control{
         double max_acceleration_{0.};
         double max_deceleration_{0.};
 
+        // number of states, includes
+        // lateral error, lateral error rate, heading error, heading error rate,
+        // station error, velocity error,
         int stateSize_{0};
         int controlSize_{0};
         int controlHorizon_{0};
@@ -70,6 +98,7 @@ namespace control{
         Eigen::MatrixXd matrix_a_;
         // discrete vehicle state matrix
         Eigen::MatrixXd matrix_ad_;
+
 
         Eigen::MatrixXd matrix_a_coeff_;
         // 4 by 1 matrix; state matrix
@@ -104,7 +133,8 @@ namespace control{
         // threshold for computation
         double mpc_eps_{0.0};
 
-
+        // for log purpose
+        const std::string name_;
     };
 
 }

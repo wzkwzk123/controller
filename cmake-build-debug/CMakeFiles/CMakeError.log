@@ -1,24 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/cjh/wzk/masterThesis/Controller/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/zwu/zwu/profession/control/controller/controllerCplus/controller/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_e329d/fast && /usr/bin/make -f CMakeFiles/cmTC_e329d.dir/build.make CMakeFiles/cmTC_e329d.dir/build
-make[1]: Entering directory '/home/cjh/wzk/masterThesis/Controller/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e329d.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_e329d.dir/src.c.o   -c /home/cjh/wzk/masterThesis/Controller/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_e329d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e329d.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_e329d.dir/src.c.o  -o cmTC_e329d 
-CMakeFiles/cmTC_e329d.dir/src.c.o：在函数‘main’中：
-src.c:(.text+0x3c)：对‘pthread_create’未定义的引用
-src.c:(.text+0x48)：对‘pthread_detach’未定义的引用
-src.c:(.text+0x59)：对‘pthread_join’未定义的引用
-src.c:(.text+0x6d)：对‘pthread_atfork’未定义的引用
+Run Build Command(s):/usr/bin/make cmTC_23d2b/fast && /usr/bin/make -f CMakeFiles/cmTC_23d2b.dir/build.make CMakeFiles/cmTC_23d2b.dir/build
+make[1]: 进入目录“/home/zwu/zwu/profession/control/controller/controllerCplus/controller/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_23d2b.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_23d2b.dir/src.c.o   -c /home/zwu/zwu/profession/control/controller/controllerCplus/controller/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_23d2b
+/home/zwu/software/CLion-2019.3.2/clion-2019.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23d2b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_23d2b.dir/src.c.o  -o cmTC_23d2b 
+/usr/bin/ld: CMakeFiles/cmTC_23d2b.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_e329d.dir/build.make:86: recipe for target 'cmTC_e329d' failed
-make[1]: *** [cmTC_e329d] Error 1
-make[1]: Leaving directory '/home/cjh/wzk/masterThesis/Controller/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_e329d/fast' failed
-make: *** [cmTC_e329d/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_23d2b.dir/build.make:87：cmTC_23d2b] 错误 1
+make[1]: 离开目录“/home/zwu/zwu/profession/control/controller/controllerCplus/controller/cmake-build-debug/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_23d2b/fast] 错误 2
 
 
 Source file was:
@@ -42,22 +39,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/cjh/wzk/masterThesis/Controller/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/zwu/zwu/profession/control/controller/controllerCplus/controller/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_49382/fast && /usr/bin/make -f CMakeFiles/cmTC_49382.dir/build.make CMakeFiles/cmTC_49382.dir/build
-make[1]: Entering directory '/home/cjh/wzk/masterThesis/Controller/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_49382.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_49382.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.15/Modules/CheckFunctionExists.c
-Linking C executable cmTC_49382
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49382.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_49382.dir/CheckFunctionExists.c.o  -o cmTC_49382 -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_5f0b5/fast && /usr/bin/make -f CMakeFiles/cmTC_5f0b5.dir/build.make CMakeFiles/cmTC_5f0b5.dir/build
+make[1]: 进入目录“/home/zwu/zwu/profession/control/controller/controllerCplus/controller/cmake-build-debug/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5f0b5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5f0b5.dir/CheckFunctionExists.c.o   -c /home/zwu/software/CLion-2019.3.2/clion-2019.3.2/bin/cmake/linux/share/cmake-3.15/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5f0b5
+/home/zwu/software/CLion-2019.3.2/clion-2019.3.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f0b5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_5f0b5.dir/CheckFunctionExists.c.o  -o cmTC_5f0b5 -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_49382.dir/build.make:86: recipe for target 'cmTC_49382' failed
-make[1]: *** [cmTC_49382] Error 1
-make[1]: Leaving directory '/home/cjh/wzk/masterThesis/Controller/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_49382/fast' failed
-make: *** [cmTC_49382/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_5f0b5.dir/build.make:87：cmTC_5f0b5] 错误 1
+make[1]: 离开目录“/home/zwu/zwu/profession/control/controller/controllerCplus/controller/cmake-build-debug/CMakeFiles/CMakeTmp”
+make: *** [Makefile:121：cmTC_5f0b5/fast] 错误 2
 
 
 
